@@ -3,8 +3,9 @@
 English | [中文](https://github.com/Hiwonder/LanderPi/blob/main/README_cn.md)
 
 <p align="center">
-  <img src="./sources/images/image.webp" alt="LanderPi Logo" width="400"/>
+  <img src="./sources/images/landerpi.png" alt="LanderPi Logo" width=600px "/>
 </p>
+
 
 ## LanderPi: Listens, Thinks, Acts! Your Robotics Learning & Development Platform
 

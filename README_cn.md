@@ -3,8 +3,9 @@
 [English](https://github.com/Hiwonder/LanderPi/blob/main/README.md) | 中文
 
 <p align="center">
-  <img src="./sources/images/image.webp" alt="LanderPi Logo" width="400"/>
+  <img src="./sources/images/landerpi.png" alt="LanderPi Logo" width=600px "/>
 </p>
+
 
 ## LanderPi：一个能听懂人话、自己动脑的机器人学习和开发平台
 
