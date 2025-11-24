@@ -12,8 +12,9 @@ English | [中文](https://github.com/Hiwonder/LanderPi/blob/main/README_cn.md)
 I've always wondered, what if a robot could truly understand when you say "bring me the red building block," then find it and plan the right moves all on its own? That's how LanderPi started: a robot platform that actually listens, thinks, and acts precisely. It's also a development platform where students, developers, and engineers can easily learn AI robotics and turn their own AI ideas into real projects.
 
 <p align="center">
-  <img src="./sources/images/1.png" alt="LanderPi Overview" width="600"/>
+  <img src="./sources/images/landerpi-2.png" alt="LanderPi Overview" width="600"/>
 </p>
+
 
 ## Multimodal AI + ROS 2
 

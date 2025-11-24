@@ -12,8 +12,9 @@
 我常常在想，能不能让机器人像人一样，听到「把红色积木拿过来」就能自主找到，精准规划动作？这就是LanderPi的起点——一个真正能听懂指令、自己思考怎么执行的机器人平台。这也是一个让热爱学习AI的学生、开发者，工程师们都能轻松学习先进的AI机器人技术，并能创作出更多AI项目的机器人开发平台。
 
 <p align="center">
-  <img src="./sources/images/1.png" alt="LanderPi 概览" width="600"/>
+  <img src="./sources/images/landerpi-2.png" alt="LanderPi Overview" width="600"/>
 </p>
+
 
 ## 多模态AI大模型+ROS2
 
