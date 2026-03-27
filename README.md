@@ -68,6 +68,32 @@ Powered by a YOLOv11 deep learning model, LanderPi doesn't just see objects — 
   <img src="./sources/images/8.png" alt="YOLOv11 Vision" width="600"/>
 </p>
 
+### 🍓 Custom Extension: Autonomous Strawberry Harvesting
+Built on top of LanderPi's YOLOv11 + 3D vision pipeline, this extension enables the robot to autonomously detect, localize, and harvest ripe strawberries in real time. A custom YOLOv11 model (`strawberry.pt`) was trained to classify strawberries as **ripe** or **unripe**, converted to OpenVINO IR format for optimized inference on the Raspberry Pi 5, and integrated with the depth camera and inverse kinematics pipeline for precise grasping.
+
+<p align="center">
+  <img src="./sources/images/strawberry_pick.png" alt="Strawberry Harvesting" width="600"/>
+</p>
+
+**Key features:**
+- Custom YOLOv11 model trained on strawberry dataset (`ripe` / `unripe` classes)
+- PID-based visual servoing to center the arm camera on the target berry
+- Depth camera computes real-world 3D coordinates of the berry
+- Inverse kinematics moves the 6-DOF arm to grab and place the berry
+- Fully integrated with LanderPi's existing ROS 2 launch system
+
+**Quick Start:**
+```bash
+# Convert your trained model
+python3 export_onnx.py  # .pt → ONNX
+ovc strawberry.onnx --output_model strawberry.xml  # ONNX → OpenVINO
+
+# Place model in YOLO models folder
+cp strawberry.xml strawberry.bin ~/ros2_ws/src/yolov11_detect/models/
+
+# Launch
+ros2 launch example strawberry_pick_ik.launch.py
+```
 ## Fully Open Source, Free to Take
 
 Code sources are open — robot control, AI interaction, 3D vision, robotic arm control ... all here on GitHub. Use the existing modules as they are, or develop your own features on top of our framework. If you're excited to tinker with a robot that listens, thinks for itself, precisely acts — you're in the right place. We've also built full [LanderPi tutorials](https://www.hiwonder.com.cn/store/learn/180.html) and docs to help you. Just learn and develop it! Let's make robots cooler together.
