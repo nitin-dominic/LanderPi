@@ -78,7 +78,8 @@ Powered by a YOLOv11 deep learning model, LanderPi doesn't just see objects — 
   <img src="./sources/images/8.png" alt="YOLOv11 Vision" width="600"/>
 </p>
 
-### 🍓 Custom Extension: Autonomous Strawberry Harvesting
+## 🍓 Custom Extension: Autonomous Strawberry Harvesting
+
 Built on top of LanderPi's YOLOv11 + 3D vision pipeline, this extension enables the robot to autonomously detect, localize, and harvest ripe strawberries in real time. A custom YOLOv11 model (`strawberry.pt`) was trained to classify strawberries as **ripe** or **unripe**, converted to OpenVINO IR format for optimized inference on the Raspberry Pi 5, and integrated with the depth camera and inverse kinematics pipeline for precise grasping.
 
 <p align="center">
