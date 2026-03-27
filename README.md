@@ -1,5 +1,12 @@
 # LanderPi
 
+# LanderPi — Forked & Extended by [Nitin Rai]
+
+> 🍓 **This fork adds autonomous strawberry harvesting** using custom YOLOv11 + depth camera + IK.
+> Jump straight to: [Strawberry Pick Project](#-strawberry-pick-ik)
+
+---
+
 English | [中文](https://github.com/Hiwonder/LanderPi/blob/main/README_cn.md)
 
 <p align="center">
