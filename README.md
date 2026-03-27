@@ -9,6 +9,10 @@
 > 🍓 Jump to Strawberry Pick IK section: [Strawberry Pick IK](#-custom-extension-autonomous-strawberry-harvesting)
 
 ![Strawberry Pick](https://img.shields.io/badge/🍓%20Strawberry%20Pick-IK%20Extension-red)
+
+# Custom hex color (strawberry red)
+[![Strawberry Pick IK](https://img.shields.io/badge/🍓%20Jump%20to-Strawberry%20Pick%20IK-E3242B)](#-custom-extension-autonomous-strawberry-harvesting)
+
 ---
 
 English | [中文](https://github.com/Hiwonder/LanderPi/blob/main/README_cn.md)
