@@ -105,6 +105,9 @@ cp strawberry.xml strawberry.bin ~/ros2_ws/src/yolov11_detect/models/
 # Launch
 ros2 launch example strawberry_pick_ik.launch.py
 ```
+
+##
+
 ## Fully Open Source, Free to Take
 
 Code sources are open — robot control, AI interaction, 3D vision, robotic arm control ... all here on GitHub. Use the existing modules as they are, or develop your own features on top of our framework. If you're excited to tinker with a robot that listens, thinks for itself, precisely acts — you're in the right place. We've also built full [LanderPi tutorials](https://www.hiwonder.com.cn/store/learn/180.html) and docs to help you. Just learn and develop it! Let's make robots cooler together.
